@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css"> 
+        <title>Classic Football Shirts </title>
+    </head>
+    <body>
+        <header>
+            <img class="navlogo" src="images/football.png" alt="logo">
+            <nav>
+                <ul class="nav_links">
+                    <li><a class="box" href="index.html">Startsida</a></li>
+                    <li><a class="box" href="about.html">Om Oss</a></li>
+                    <li><a class="box" href="documentation.html">Dokumentationer</a></li>
+                </ul>
+            </nav>
+            <a class="button" href="contacts.html"><button>Kontakt</button></a>
+        </header>
+
+
+
+    <!------- Slideshow ------->
+
+    <div>
+        <img id="image1" />
+    </div>
+
+    <script>
+        var imgArray = [
+            'images/image1.jpeg',
+            'images/image2.jpeg',
+            'images/image3.jpg'
+        ];
+        var curIndex = 0;
+        var imgDuration = 5000;
+
+        function slideShow() {
+            document.getElementById('image1').src = imgArray[curIndex];
+            curIndex++;
+            if (curIndex == imgArray.length) { curIndex = 0; }
+            setTimeout("slideShow()", imgDuration);
+        }
+        slideShow();
+    </script>
+    
+    
+    
+    
+    
+    <!-- Manchester United Front Page-->
+
+        <div class="container">
+            <div class="man1">
+                <img src="images/united-5.jpeg">
+            </div>
+            <div class="man1">
+                <img src="images/united-6.jpeg">
+            </div>
+            <div class="man1">
+                <img src="images/united-7.jpeg">
+            </div>
+        </div>
+
+        <div class="container">
+            <img src="images/brige.jpeg" style="width: 30%; height: 250px; padding-left: 6%; margin-top: 2%;">
+            <img src="images/trafford.jpeg" style="width: 30%; height: 250px; padding-right: 6%; margin-top: 2%;">
+       </div>
+        
+        <h1 style="margin-left: 38%; margin-top: -10%;">Manchester United FC</h1>
+        
+        
+        <div class="container">
+            <div class="man2">
+                <img src="images/united-3.webp">
+            </div>
+            <div class="man2">
+                <img src="images/utd-penalty.webp">
+            </div>
+            <div class="man2">
+                <img src="images/united-4.jpeg">
+            </div>
+        </div>
+        
+        
+        
+        
+        <!------- First row products ------->
+        
+        <div id="united">
+            <div class="categories">
+                <div class="col-3">
+                    <img src="images/united-21.webp">
+                    <h4>Manchester United Home Shirt 20/21</h4>
+                    <p>$70.00</p>
+                </div>
+                <div class="col-3">
+                    <img src="images/blue-united.webp">
+                    <h4>Manchester United Away shirt 21/22</h4>
+                    <p>$80.00</p>
+                </div>
+                <div class="col-3">
+                    <img src="images/united-neon.webp">
+                    <h4>Manchester United Third Kit 22/23</h4>
+                    <p>$80.00</p>
+                </div>
+            </div>
+        </div>
+            
+        <div class="categories">
+            <div class="col-4">
+                <img src="images/22-united.jpeg">
+                    <h4>Manchester United 22/23 Home Jersy</h4>
+                    <p>$100.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/united-fleec.jpeg">
+                    <h4>Manchester United Warm-up Fleec</h4>
+                    <p>$75.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/united-red-red.jpeg">
+                    <h4>Manchester United 21/22 Home Jersy</h4>
+                    <p>$60.00</p>
+                </div>
+            </div>
+        </div>
+       
+
+
+        
+        <!-- Real Madrid Front Page -->
+
+        <div class="container">
+            <div class="rma1">
+                <img src="images/rm-1.jpeg">
+            </div>
+            <div class="rma1">
+                <img src="images/rm-2.jpeg">
+            </div>
+            <div class="rma1">
+                <img src="images/rm-3.jpeg">
+            </div>
+        </div>
+        
+        
+        <div class="container">
+            <img src="images/castle.jpeg" style="width: 25%; height: 250px; padding-left: 6%; margin-top: 2%;">
+            <img src="images/castle2.jpeg" style="width: 25%; height: 250px; padding-right: 6%; margin-top: 2%;">
+       </div>
+        
+        <h1 style="margin-left: 41%; margin-top: -10%;">Real Madrid CF</h1>
+        
+        <div class="container">
+            <div class="rma2">
+                <img src="images/rm-4.webp">
+            </div>
+            <div class="rma2">
+                <img src="images/rm-5.jpeg">
+            </div>
+            <div class="rma2">
+                <img src="images/rm-6.jpeg">
+            </div>
+        </div>
+        
+        
+        
+        
+        <!----- Second Row Products ------>
+        
+        <div id="real">
+            <div class="categories">
+                <div class="col-5">
+                    <img src="images/real-og.webp">
+                        <h4 class="real-kit-info">Real Madrid 22/23 Home Jersy</h4>
+                        <p class="real-kit-prices">$100.00</p>
+                    </div>
+                    <div class="col-5">
+                        <img src="images/real-green.webp">
+                        <h4 class="real-kit-info">Real Madrid 22/23 Away Jersy</h4>
+                        <p class="real-kit-prices">$75.00</p>
+                    </div>
+                    <div class="col-5">
+                        <img src="images/real-purple.webp">
+                        <h4 class="real-kit-info">Real Madrid 22/23 Third Kit</h4>
+                        <p class="real-kit-prices">$60.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="categories">
+            <div class="col-6">
+                <img src="images/real-blue.jpeg">
+                    <h4>Real Madrid 20/21 Third jersy</h4>
+                    <p>$90.00</p>
+                </div>
+                <div class="col-6">
+                    <img src="images/real-21.jpeg">
+                    <h4>Real Madrid 21/22 Home Jersy</h4>
+                    <p>$75.00</p>
+                </div>
+                <div class="col-6">
+                    <img src="images/real-neon.jpeg">
+                    <h4>Real Madrid 19/20 Third Kit </h4>
+                    <p>$80.00</p>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <!-- Arsebal Front Page -->
+
+        <div class="container">
+            <div class="a1">
+                <img src="images/a-1.avif">
+            </div>
+            <div class="a1">
+                <img src="images/a-2.avif">
+            </div>
+            <div class="a1">
+                <img src="images/a-3.avif">
+            </div>
+        </div>
+
+        
+        <div class="container">
+            <img src="images/londoneye.webp" style="width: 25%; height: 250px; padding-left: 6%; margin-top: 2%;">
+            <img src="images/big ben .jpeg" style="width: 25%; height: 250px; padding-right: 6%; margin-top: 2%;">
+       </div>
+        
+        
+        <h1 style="margin-left: 44%; margin-top: -10%;">Arsenal FC</h1>
+        
+        <div class="container">
+            <div class="a2">
+                <img src="images/a-4.jpeg">
+            </div>
+            <div class="a2">
+                <img src="images/a-5.avif">
+            </div>
+            <div class="a2">
+                <img src="images/a-6.jpeg">
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        <!----- Third Row Products  ------>
+        
+        <div id="arsenal">
+            <div class="categories">
+                <div class="col-7">
+                    <img src="images/arsenal-red-white.jpeg">
+                        <h4>Real Madrid 20/21 Third jersy</h4>
+                        <p>$90.00</p>
+                    </div>
+                    <div class="col-7">
+                        <img src="images/arsenal-19.jpeg">
+                        <h4>Arsenal 19/20 Home Jersy</h4>
+                        <p>$75.00</p>
+                    </div>
+                    <div class="col-7">
+                        <img src="images/arsenal-yellow.jpeg">
+                        <h4>Arsenal 19/20 Away Shirt </h4>
+                        <p>$80.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="categories">
+            <div class="col-8">
+                <img src="images/arsenal-home.jpeg">
+                    <h4 class="arsenal-kit-info">Arsenal 22/23 Home Kit</h4>
+                    <p class="arsenal-kit-prices">$90.00</p>
+                </div>
+                <div class="col-8">
+                    <img src="images/arsenal-pink.jpeg">
+                    <h4 class="arsenal-kit-info">Arsenal 22/23 Away Jersy</h4>
+                    <p class="arsenal-kit-prices">$75.00</p>
+                </div>
+                <div class="col-8">
+                    <img src="images/arsenal-gray.jpeg">
+                    <h4 class="arsenal-kit-info">Arsenal 22/23 Third Shirt </h4>
+                    <p class="arsenal-kit-prices">$80.00</p>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        <!-- PSG Front Page -->
+
+        <div class="container">
+            <div class="psg-1">
+                <img src="images/psg1.avif">
+            </div>
+            <div class="psg-1">
+                <img src="images/psg2.avif">
+            </div>
+            <div class="psg-1">
+                <img src="images/psg3.avif">
+            </div>
+        </div>
+
+       <div class="container">
+            <img src="images/effiel.jpeg" style="width: 25%; height: 250px; padding-left: 6%; margin-top: 2%;">
+            <img src="images/rondell.jpeg" style="width: 25%; height: 250px; padding-right: 6%; margin-top: 2%;">
+       </div>
+        
+        <h1 class="title-for-psg">Paris-Saint German</h1>
+
+        <div class="container">
+            <div class="psg-2">
+                <img src="images/psg4.jpeg">
+            </div>
+            <div class="psg-2">
+                <img src="images/psg5.jpeg">
+            </div>
+            <div class="psg-2">
+                <img src="images/psg6.jpeg">
+            </div>
+        </div>
+        
+        
+        
+        
+        <!------Fourth Row Products ------>
+        
+        <div id="psg">
+            <div class="categories">
+                <div class="col-9">
+                    <img src="images/psg-home.jpeg">
+                        <h4 class="psg-kit-info">Paris Saint German 22/23 Home Jersy</h4>
+                        <p class="psg-kit-prices">$90.00</p>
+                    </div>
+                    <div class="col-9">
+                        <img src="images/psg-away.jpeg">
+                        <h4 class="psg-kit-info">Paris Saint German 22/23 Away Jersy</h4>
+                        <p class="psg-kit-prices">$90.00</p>
+                    </div>
+                    <div class="col-9">
+                        <img src="images/psg-third.webp">
+                        <h4 class="psg-kit-info">Paris Saint German 22/23 Third Kit</h4>
+                        <p class="psg-kit-prices">$90.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="categories">
+            <div class="col-10">
+                <img src="images/psg-pink.jpeg">
+                    <h4>Paris-Saint German 21/22 Third Kit</h4>
+                    <p>$80.00</p>
+                </div>
+                <div class="col-10">
+                    <img src="images/psg-pink-21.jpeg">
+                    <h4>Paris-Saint German 21/22</h4>
+                    <p>$80.00</p>
+                </div>
+                <div class="col-10">
+                    <img src="images/psg-orange.jpeg">
+                    <h4>Paris-Saint German 21/22 Away Shirt</h4>
+                    <p>$80.00</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
